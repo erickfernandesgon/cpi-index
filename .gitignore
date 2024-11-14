@@ -1,0 +1,13 @@
+# Ignorar arquivos de ambiente
+.env
+
+# Ignorar pastas comuns
+__pycache__/
+*.pyc
+
+# Ignorar arquivos temporários de notebooks
+.ipynb_checkpoints/
+
+# Ignorar arquivos do sistema operacional
+.DS_Store
+Thumbs.db
