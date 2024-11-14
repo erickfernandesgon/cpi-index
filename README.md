@@ -124,34 +124,3 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou env
 ## **📜 Licença**
 
 Este projeto está licenciado sob a licença MIT. Consulte o arquivo `LICENSE` para mais detalhes.
-
-
-## Configuração do Arquivo `.env`
-
-Para executar este projeto, você precisa configurar um arquivo `.env` para armazenar a chave da API. Siga os passos abaixo:
-
-1. **Crie um arquivo `.env` no diretório raiz do projeto**:
-   - Você pode criar o arquivo manualmente ou copiar o exemplo já fornecido:
-     ```bash
-     cp .env.example .env
-     ```
-
-2. **Adicione sua chave da API ao arquivo `.env`**:
-   - Edite o arquivo `.env` com qualquer editor de texto e insira sua chave:
-     ```plaintext
-     BLS_API_KEY=sua-chave-aqui
-     ```
-
-3. **Proteja o Arquivo `.env`**:
-   - Certifique-se de que o arquivo `.env` não seja enviado para o repositório adicionando-o ao `.gitignore`.
-
----
-
-### Exemplo de `.env.example`
-
-Inclua um arquivo chamado `.env.example` no projeto como modelo para o usuário. O conteúdo deve ser algo como:
-```plaintext
-# Exemplo de configuração do arquivo .env
-# Substitua "sua-chave-aqui" pela chave real da API BLS
-BLS_API_KEY=sua-chave-aqui
-```
